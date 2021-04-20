@@ -9,20 +9,19 @@ body {}
 header {
     width: 100%;
     height: 50px;
-    background-color: beige;
+    background-color: rgb(247, 247, 115);
 }
 
 .container {
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    background-color: lightgreen;
 }
 
 .wrap {
     margin-top: 100px;
-    height: 500px;
-    background-color: darkgoldenrod;
+    height: 100%;
+    background-color: rgb(235, 218, 177);
 }
 
 .box {
@@ -31,20 +30,66 @@ header {
     align-items: center;
 }
 
-.sem {
-    background-color: blue;
+.box-img {
     width: 400px;
-    height: 200px;
+    height: 300px;
 }
 
-.ale {
+.sx {
+    background-color: brown;
     display: flex;
-    background-color: brown;
-    align-content: center;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     width: 50px;
+    height: 50px;
 }
 
-.tor {
+.dx {
     background-color: brown;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prova {
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+
+.box-square {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(122, 131, 98);
+    justify-items: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.slider_control li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(226, 238, 238);
+}
+
+.slider_control ul {
+    text-align: center;
+    padding: 3px;
+}
+
+img {
+    width: 100%;
 }
