@@ -18,6 +18,9 @@ header {
     margin: 0 auto;
 }
 
+
+/* primo wap  */
+
 .wrap {
     margin-top: 100px;
     height: 100%;
@@ -42,11 +45,6 @@ header {
     height: 50px;
 }
 
-.sx .active {
-    cursor: pointer;
-    color: blue;
-}
-
 .dx {
     width: 50px;
     height: 50px;
@@ -55,7 +53,24 @@ header {
     align-items: center;
 }
 
-.prova {
+.dx .active {
+    cursor: pointer;
+    color: blue;
+}
+
+img {
+    width: 100%;
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+/* fine wrap-1  */
+
+.wrap2 {
     width: 100%;
     height: 70px;
 }
@@ -98,13 +113,4 @@ span {
 li.active {
     background-color: aqua;
     cursor: pointer;
-}
-
-img {
-    width: 100%;
-    display: none;
-}
-
-.visible {
-    display: block;
 }

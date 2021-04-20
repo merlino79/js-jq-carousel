@@ -2,6 +2,12 @@ $(document).ready(function() {
     //console.log('DOM');
 
 
+    $('span').click(function() {
+        $('.')
+
+    });
+
+
 
 
 
@@ -23,4 +29,4 @@ $(document).ready(function() {
 
 
 });
-console.log("uno")
+//console.log("uno")
