@@ -89,12 +89,12 @@ span {
 
 .square {
     width: 200px;
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 50px;
     background-color: rgb(122, 131, 98);
     justify-items: center;
     align-items: center;
-    border-radius: 7px;
+    border-radius: 50px;
 }
 
 .slider_control li {
@@ -103,11 +103,12 @@ span {
     height: 20px;
     border-radius: 50%;
     background-color: rgb(226, 238, 238);
+    margin: 10px;
 }
 
 .slider_control ul {
     text-align: center;
-    padding: 3px;
+    padding: 7px;
 }
 
 li.active {

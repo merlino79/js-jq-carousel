@@ -14,9 +14,23 @@ $(document).ready(function() {
         var activeImg = $('.box-img img.visible');
         console.log(activeImg);
 
+        var activeCircle = $('.slider_control ul li.active');
+        console.log(activeCircle);
+        // activeCircle.removeClass('active');
+
+        if (activeImg.hasClass('last')) {
+            //aggiungo active a first
+            $('.box-img img.first').addClass('visible');
+            $(' li.first').addClass('active');
+
+        } else {
+            activeImg.next('img').addClass('visible')
+            activeCircle.next('.ul li').addClass('active')
+        }
         activeImg.removeClass('visible');
         //console.log(activeImg.next());
-        activeImg.next().addClass('visible');
+
+        activeImg.next('img').addClass('visible');
 
 
     }
