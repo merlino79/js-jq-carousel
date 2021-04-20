@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: beige;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: lightgreen;
+}
+
+.wrap {
+    margin-top: 100px;
+    height: 500px;
+    background-color: darkgoldenrod;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sem {
+    background-color: blue;
+    width: 400px;
+    height: 200px;
+}
+
+.ale {
+    display: flex;
+    background-color: brown;
+    align-content: center;
+    justify-items: center;
+    width: 50px;
+}
+
+.tor {
+    background-color: brown;
+}
