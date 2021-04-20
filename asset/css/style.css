@@ -92,4 +92,9 @@ header {
 
 img {
     width: 100%;
+    display: none;
+}
+
+.visible {
+    display: block;
 }
