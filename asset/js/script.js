@@ -41,7 +41,7 @@ $(document).ready(function() {
 
     function prevImage() {
         console.log("prev");
-        var activeImg = $('.box-img img.visible');
+        var activeImg = $(' img.visible');
         console.log(activeImg);
 
         var activeCircle = $(' li.active');
@@ -52,18 +52,18 @@ $(document).ready(function() {
         activeCircle.removeClass('active')
             //console.log(activeImg.next());
 
-        if (activeImg.hasClass('last')) {
+        if (activeImg.hasClass('first')) {
             //aggiungo active a first
-            $('.box-img img.first').addClass('visible');
-            $('li.first').addClass('active');
+            $('.box-img img.last').addClass('visible');
+            $('li.last').addClass('active');
 
         } else {
-            activeImg.next('').addClass('visible')
-            activeCircle.next('').addClass('active')
+            activeImg.prev('').addClass('visible')
+            activeCircle.prev('').addClass('active')
         }
 
 
-        activeImg.next('img').addClass('visible');
+
 
 
     }

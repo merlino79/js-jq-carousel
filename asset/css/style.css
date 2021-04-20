@@ -63,7 +63,7 @@ img {
     display: none;
 }
 
-.box .visible {
+img.visible {
     display: block;
 }
 
